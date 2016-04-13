@@ -16,17 +16,21 @@
             height: 9.8em;
         }
         .auto-style3 {
-            width: 131px;
-            height: 87px;
+            text-align: center;
+            font-style: italic;
         }
         .auto-style4 {
-            left: 0px;
-            top: 0px;
-            height: 3px;
+            text-align: left;
+            font-style: italic;
+        }
+        .auto-style5 {
+            font-style: normal;
         }
     </style>
 </head>
 <body>
+
+    <form id="form1" runat="server">
 
 <div id="outer">
 
@@ -40,42 +44,55 @@
 	</div>
 
 
-	<form method="post" action="">
 		<div id="search">
 			<input type="text" class="text" maxlength="64" name="keywords" />
 			<input type="submit" class="submit" value="Search" />
 		</div>
-	    </form>
 
 	
 	<div id="menu">
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#" class="active">Donate</a></li>
+			<li><a href="Donate.apsx" class="active">Donate</a></li>
 			<li><a href="#">My Account</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
 	</div>
-	<div id="menubottom"></div>
-
+	<div id="menubottom">
+        <br />
+    </div>
+    
+    <div id="loginBox" class="auto-style4">
+        <p style="border:3px solid #7F8400; padding: 1em; width: 259px;";>
+            &nbsp;If you have an account then<span class="auto-style5">
+        <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="#7F8400">Login</asp:LinkButton>
+            </span>
+        <br />
+            Otherwise <span class="auto-style5">
+        <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="#7F8400">Sign Up</asp:LinkButton>
+            </span>&nbsp;to make an account.</p>
+    </div>
 	
 	<div id="content">
 		<div id="normalcontent">
-			<h3><span>Feed My Starving Children Charity</span></h3>
-			<br />
+			<div class="auto-style3">
+                <br />
+&nbsp;<h3><span>
+                Feed My Starving Children Charity</span></h3>
+                <br />
+            </div>
             <div class="left">
-				&nbsp;<p>
-                    <img alt="" class="auto-style3" src="images/smileChild1.jpg" /></p>				<p>&nbsp;</p>
-
-				
-			</div>
+                <hr />
+            </div>
 		</div>
 
 
 	</div>
 	
 </div>
+
+    </form>
 
 </body>
 </html>

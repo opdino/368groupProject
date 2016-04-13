@@ -24,13 +24,15 @@ margin-bottom: 1.0em;
 text-align: justify;
 }
 
+
+
 a
 {
 color: #B96D00;
-text-decoration: underline;
+    font-weight: 700;
 }
 
-a:hover
+ver
 {
 text-decoration: none;
 }
@@ -54,6 +56,7 @@ h3
 font-size: 1.7em;
 padding-right: 34px;
 background-image: url('images/db1.gif');
+    text-align: left;
 }
 
 h4
