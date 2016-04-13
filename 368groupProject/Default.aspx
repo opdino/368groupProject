@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-<title>zenlike1.0 by nodethirtythree</title>
+<title>ILSTU FMSC</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link rel="stylesheet" type="text/css" href="CSS/default.css" />
@@ -68,7 +68,7 @@
 				&nbsp;<p>
                     <img alt="" class="auto-style3" src="images/smileChild1.jpg" /></p>				<p>&nbsp;</p>
 
-				<!-- Normal content area end -->
+				
 			</div>
 		</div>
 
